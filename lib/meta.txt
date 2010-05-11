@@ -1,0 +1,1 @@
+When this package is installed, it places the narwhal-lib and narwhal-node libs here.

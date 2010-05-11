@@ -1,0 +1,11 @@
+{ "name" : "narwhal"
+, "version" : "0.0.1"
+, "author" : "Isaac Z. Schlueter <i@izs.me>"
+, "dependencies" : { "narwhal-lib" : "", "node-narwhal" : "" }
+, "conflicts" : { "fs-base" : "", "system" : "", "assert" : "", "test" : "" }
+, "scripts" :
+  { "activate" : "./scripts/link.sh"
+  , "deactivate" : "./scripts/unlink.sh"
+  , "install" : "./scripts/install.sh"
+  }
+}
